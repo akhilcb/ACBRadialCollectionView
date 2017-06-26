@@ -29,6 +29,6 @@ For eg:-
   
     self.collectionView.enableRadialLayout(WithCenter: center, radius: radius, cellSize: cellSize, angularSpacing: 20.0, scrollDirection: direction, startAngle: startAngle, endAngle: endAngle)
   
-You can also control whether the cells needs to be rotated to an angle.
+You can also control whether the cells needs to be rotated to an angle(_Note: This works only if you have called enableRadialLayout before setting this, default value is true_).
  
     self.collectionView.applyRotationToCells = false
