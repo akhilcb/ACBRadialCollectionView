@@ -57,8 +57,8 @@ class ACBViewController: UIViewController {
         let center = self.center
         let radius =  self.arcRadius
         let cellSize = CGSize(width: itemRadius, height: itemRadius)
-        let startAngle =  self.startAngle//CGFloat(M_PI_2)/6
-        let endAngle = self.endAngle//CGFloat(M_PI_2) * 5 / 6
+        let startAngle =  self.startAngle
+        let endAngle = self.endAngle
         let direction = ACBRadialCollectionViewScrollDirection.clockwise
         
         self.collectionView1?.enableRadialLayout(WithCenter: center, radius: radius, cellSize: cellSize, angularSpacing: 20.0, scrollDirection: direction, startAngle: startAngle, endAngle: endAngle)
@@ -71,8 +71,8 @@ class ACBViewController: UIViewController {
         let center = self.center
         let radius =  self.arcRadius + CGFloat(20.0) + itemRadius
         let cellSize = CGSize(width: itemRadius, height: itemRadius)
-        let startAngle =  self.startAngle//CGFloat(M_PI_2)/6
-        let endAngle = self.endAngle//CGFloat(M_PI_2) * 5 / 6
+        let startAngle =  self.startAngle
+        let endAngle = self.endAngle
         let direction = ACBRadialCollectionViewScrollDirection.anticlockwise
         
         self.collectionView2?.enableRadialLayout(WithCenter: center, radius: radius, cellSize: cellSize, angularSpacing: 20.0, scrollDirection: direction, startAngle: startAngle, endAngle: endAngle)
