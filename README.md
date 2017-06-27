@@ -1,7 +1,7 @@
 # ACBRadialCollectionView <kbd><img src="/ACBRadialCollectionView/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png?raw=true" width="32"></kbd>
 
 This is an extension on UICollectionView which automatically transforms collection view cells to a radial path with minimal code. 
-This is written in Swift language. No need to subclass UICollectionView for this. CollectionView will also display an arc shaped scroll bar next to the cells which acts similar to the normal scroll bar.
+This is written in Swift language. No need to subclass UICollectionView for this. CollectionView will also display an arc shaped scroll bar next to the cells which acts similar to the normal scroll bar. Using this approach, we can support multiple collectionviews on one screen as shown in below images(_Note: number of sections should be 1 for all collection views_). Each will have its own scrolling and scroll direction can also be changed for each of them separately.
 
 <kbd>
 <div>
