@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E930116720035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */; };
+		E930116720035D9B00E454A6 /* ACBRadialCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E930115E20035D9B00E454A6 /* ACBRadialCollectionView.framework */; };
 		E930116E20035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E930116D20035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.m */; };
 		E930117020035D9B00E454A6 /* ACBRadialCollectionViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E930116020035D9B00E454A6 /* ACBRadialCollectionViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E930117320035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */; };
-		E930117520035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E930117320035D9B00E454A6 /* ACBRadialCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E930115E20035D9B00E454A6 /* ACBRadialCollectionView.framework */; };
+		E930117520035D9B00E454A6 /* ACBRadialCollectionView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E930115E20035D9B00E454A6 /* ACBRadialCollectionView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E930117C20035DCD00E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FE61ED2A0AF00DCA7C1 /* UICollectionView+ACBRadialCollectionView.swift */; };
 		E930117D20035DCD00E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FE71ED2A0AF00DCA7C1 /* UIScrollView+ACBRadialScrollBar.swift */; };
 		E930117E20035DE200E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Headers */ = {isa = PBXBuildFile; fileRef = E9551FE61ED2A0AF00DCA7C1 /* UICollectionView+ACBRadialCollectionView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,7 +63,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E930117520035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Embed Frameworks */,
+				E930117520035D9B00E454A6 /* ACBRadialCollectionView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACBRadialCollectionViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E930115E20035D9B00E454A6 /* ACBRadialCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACBRadialCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E930116020035D9B00E454A6 /* ACBRadialCollectionViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACBRadialCollectionViewFramework.h; sourceTree = "<group>"; };
 		E930116120035D9B00E454A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E930116620035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACBRadialCollectionViewFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E930116720035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Frameworks */,
+				E930116720035D9B00E454A6 /* ACBRadialCollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E930117320035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Frameworks */,
+				E930117320035D9B00E454A6 /* ACBRadialCollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				E9551FCF1ED290B700DCA7C1 /* ACBRadialCollectionView.app */,
-				E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */,
+				E930115E20035D9B00E454A6 /* ACBRadialCollectionView.framework */,
 				E930116620035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.xctest */,
 			);
 			name = Products;
@@ -263,7 +263,7 @@
 			);
 			name = ACBRadialCollectionViewFramework;
 			productName = ACBRadialCollectionViewFramework;
-			productReference = E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */;
+			productReference = E930115E20035D9B00E454A6 /* ACBRadialCollectionView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E930116520035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests */ = {
@@ -479,7 +479,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.ACBRadialCollectionViewFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ACBRadialCollectionView;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -513,7 +513,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.ACBRadialCollectionViewFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ACBRadialCollectionView;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
