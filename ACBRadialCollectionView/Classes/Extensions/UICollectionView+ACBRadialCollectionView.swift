@@ -21,7 +21,7 @@ private protocol ACBRadialCollectionViewProtocol {
 
 extension UICollectionView : ACBRadialCollectionViewProtocol {
     
-    var applyRotationToCells: Bool {
+    public var applyRotationToCells: Bool {
         get {
             if let circularLayout = self.collectionViewLayout as? ACBRadialCollectionViewLayout {
                 
@@ -40,7 +40,7 @@ extension UICollectionView : ACBRadialCollectionViewProtocol {
     }
     
     
-    func enableRadialLayout(WithCenter center: CGPoint,
+    public func enableRadialLayout(WithCenter center: CGPoint,
                             radius: CGFloat,
                             cellSize : CGSize,
                             angularSpacing : CGFloat,

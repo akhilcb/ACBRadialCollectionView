@@ -22,7 +22,7 @@ extension UIScrollView : ACBRadialScrollBarProtocol {
     
     //scrollview must be added to superview before invoking enableRadialScrollBar()
     //clockwise is true for vertical scrolling and false for horizonal scrolling
-    func enableRadialScrollBar(WithScrollBarViewFrame frame: CGRect,
+    public func enableRadialScrollBar(WithScrollBarViewFrame frame: CGRect,
                                arcCenter: CGPoint,
                                radius: CGFloat,
                                scrollDirectionClockwise: Bool,
