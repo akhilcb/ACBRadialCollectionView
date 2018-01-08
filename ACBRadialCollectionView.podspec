@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/akhilcb/ACBRadialCollectionView"
   s.license      = "MIT"
   s.author    	 = "Akhil"
-  s.platform     = :ios
+  s.platform     = :ios, '10.0'
   s.source       = { :git => "https://github.com/akhilcb/ACBRadialCollectionView.git", :tag => "2.0" }
   s.source_files  = "ACBRadialCollectionView", "ACBRadialCollectionView/Classes/Source/**/*.{swift}"
 end
