@@ -16,7 +16,25 @@ Using this approach, we can support multiple collectionviews on one screen as sh
 
 <div><br></div>
 
-This can be easily integrated to the project by following the code in __ACBViewController__. 
+## Setup
+
+Carthage or Cocoapods can be used to integrate this to a project. 
+
+### Carthage
+
+```
+github "akhilcb/ACBRadialCollectionView" ~> 2.0
+
+```
+
+### Cocoapods
+
+```
+pod 'ACBRadialCollectionView'
+
+```
+
+This can be manually integrated to the project by following the code in __ACBViewController__. 
 
 	1. Copy all files to your Xcode project. "UICollectionView+ACBRadialCollectionView" is the extension class file.
 	2. Invoke the method "enableRadialLayout" on your UICollectionView with required input params.
