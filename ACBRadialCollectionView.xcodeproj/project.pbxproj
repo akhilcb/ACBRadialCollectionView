@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E930116720035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */; };
+		E930116E20035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E930116D20035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.m */; };
+		E930117020035D9B00E454A6 /* ACBRadialCollectionViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E930116020035D9B00E454A6 /* ACBRadialCollectionViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E930117320035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */; };
+		E930117520035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E930117C20035DCD00E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FE61ED2A0AF00DCA7C1 /* UICollectionView+ACBRadialCollectionView.swift */; };
+		E930117D20035DCD00E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FE71ED2A0AF00DCA7C1 /* UIScrollView+ACBRadialScrollBar.swift */; };
+		E930117E20035DE200E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Headers */ = {isa = PBXBuildFile; fileRef = E9551FE61ED2A0AF00DCA7C1 /* UICollectionView+ACBRadialCollectionView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E930117F20035DE200E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Headers */ = {isa = PBXBuildFile; fileRef = E9551FE71ED2A0AF00DCA7C1 /* UIScrollView+ACBRadialScrollBar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E930118020035E6B00E454A6 /* ACBRadialCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FEB1ED2A0AF00DCA7C1 /* ACBRadialCollectionViewLayout.swift */; };
+		E930118120035E6B00E454A6 /* ACBInternalRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FF01ED2A0AF00DCA7C1 /* ACBInternalRadialScrollBar.swift */; };
+		E930118220035E6B00E454A6 /* ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FF21ED2A0AF00DCA7C1 /* ACBRadialScrollBar.swift */; };
 		E9551FD81ED290B700DCA7C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9551FD61ED290B700DCA7C1 /* Main.storyboard */; };
 		E9551FDA1ED290B700DCA7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9551FD91ED290B700DCA7C1 /* Assets.xcassets */; };
 		E9551FDD1ED290B700DCA7C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9551FDB1ED290B700DCA7C1 /* LaunchScreen.storyboard */; };
@@ -20,7 +32,51 @@
 		E9551FFB1ED2A0AF00DCA7C1 /* ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FF21ED2A0AF00DCA7C1 /* ACBRadialScrollBar.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E930116820035D9B00E454A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9551FC71ED290B700DCA7C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E930115D20035D9B00E454A6;
+			remoteInfo = ACBRadialCollectionViewFramework;
+		};
+		E930116A20035D9B00E454A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9551FC71ED290B700DCA7C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9551FCE1ED290B700DCA7C1;
+			remoteInfo = ACBRadialCollectionView;
+		};
+		E930117120035D9B00E454A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9551FC71ED290B700DCA7C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E930115D20035D9B00E454A6;
+			remoteInfo = ACBRadialCollectionViewFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E930117420035D9B00E454A6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E930117520035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACBRadialCollectionViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E930116020035D9B00E454A6 /* ACBRadialCollectionViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACBRadialCollectionViewFramework.h; sourceTree = "<group>"; };
+		E930116120035D9B00E454A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E930116620035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACBRadialCollectionViewFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E930116D20035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACBRadialCollectionViewFrameworkTests.m; sourceTree = "<group>"; };
+		E930116F20035D9B00E454A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9551FCF1ED290B700DCA7C1 /* ACBRadialCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACBRadialCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9551FD71ED290B700DCA7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9551FD91ED290B700DCA7C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,20 +93,56 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E9551FCC1ED290B700DCA7C1 /* Frameworks */ = {
+		E930115A20035D9B00E454A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E930116320035D9B00E454A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E930116720035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9551FCC1ED290B700DCA7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E930117320035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E930115F20035D9B00E454A6 /* ACBRadialCollectionViewFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E930116020035D9B00E454A6 /* ACBRadialCollectionViewFramework.h */,
+				E930116120035D9B00E454A6 /* Info.plist */,
+			);
+			path = ACBRadialCollectionViewFramework;
+			sourceTree = "<group>";
+		};
+		E930116C20035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E930116D20035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.m */,
+				E930116F20035D9B00E454A6 /* Info.plist */,
+			);
+			path = ACBRadialCollectionViewFrameworkTests;
+			sourceTree = "<group>";
+		};
 		E9551FC61ED290B700DCA7C1 = {
 			isa = PBXGroup;
 			children = (
 				E9551FD11ED290B700DCA7C1 /* ACBRadialCollectionView */,
+				E930115F20035D9B00E454A6 /* ACBRadialCollectionViewFramework */,
+				E930116C20035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests */,
 				E9551FD01ED290B700DCA7C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				E9551FCF1ED290B700DCA7C1 /* ACBRadialCollectionView.app */,
+				E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */,
+				E930116620035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,7 +234,57 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		E930115B20035D9B00E454A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E930117020035D9B00E454A6 /* ACBRadialCollectionViewFramework.h in Headers */,
+				E930117E20035DE200E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Headers */,
+				E930117F20035DE200E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		E930115D20035D9B00E454A6 /* ACBRadialCollectionViewFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E930117620035D9B00E454A6 /* Build configuration list for PBXNativeTarget "ACBRadialCollectionViewFramework" */;
+			buildPhases = (
+				E930115920035D9B00E454A6 /* Sources */,
+				E930115A20035D9B00E454A6 /* Frameworks */,
+				E930115B20035D9B00E454A6 /* Headers */,
+				E930115C20035D9B00E454A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACBRadialCollectionViewFramework;
+			productName = ACBRadialCollectionViewFramework;
+			productReference = E930115E20035D9B00E454A6 /* ACBRadialCollectionViewFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E930116520035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E930117920035D9B00E454A6 /* Build configuration list for PBXNativeTarget "ACBRadialCollectionViewFrameworkTests" */;
+			buildPhases = (
+				E930116220035D9B00E454A6 /* Sources */,
+				E930116320035D9B00E454A6 /* Frameworks */,
+				E930116420035D9B00E454A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E930116920035D9B00E454A6 /* PBXTargetDependency */,
+				E930116B20035D9B00E454A6 /* PBXTargetDependency */,
+			);
+			name = ACBRadialCollectionViewFrameworkTests;
+			productName = ACBRadialCollectionViewFrameworkTests;
+			productReference = E930116620035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E9551FCE1ED290B700DCA7C1 /* ACBRadialCollectionView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9551FE11ED290B700DCA7C1 /* Build configuration list for PBXNativeTarget "ACBRadialCollectionView" */;
@@ -148,10 +292,12 @@
 				E9551FCB1ED290B700DCA7C1 /* Sources */,
 				E9551FCC1ED290B700DCA7C1 /* Frameworks */,
 				E9551FCD1ED290B700DCA7C1 /* Resources */,
+				E930117420035D9B00E454A6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E930117220035D9B00E454A6 /* PBXTargetDependency */,
 			);
 			name = ACBRadialCollectionView;
 			productName = ACBRadialCollectionView;
@@ -168,9 +314,19 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = akhil;
 				TargetAttributes = {
+					E930115D20035D9B00E454A6 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 2G6L67FS93;
+						ProvisioningStyle = Automatic;
+					};
+					E930116520035D9B00E454A6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9551FCE1ED290B700DCA7C1;
+					};
 					E9551FCE1ED290B700DCA7C1 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = UJ8X2N5665;
+						DevelopmentTeam = 2G6L67FS93;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -189,11 +345,27 @@
 			projectRoot = "";
 			targets = (
 				E9551FCE1ED290B700DCA7C1 /* ACBRadialCollectionView */,
+				E930115D20035D9B00E454A6 /* ACBRadialCollectionViewFramework */,
+				E930116520035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E930115C20035D9B00E454A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E930116420035D9B00E454A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9551FCD1ED290B700DCA7C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,6 +379,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E930115920035D9B00E454A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E930118020035E6B00E454A6 /* ACBRadialCollectionViewLayout.swift in Sources */,
+				E930118120035E6B00E454A6 /* ACBInternalRadialScrollBar.swift in Sources */,
+				E930118220035E6B00E454A6 /* ACBRadialScrollBar.swift in Sources */,
+				E930117C20035DCD00E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Sources */,
+				E930117D20035DCD00E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E930116220035D9B00E454A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E930116E20035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9551FCB1ED290B700DCA7C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,6 +415,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E930116920035D9B00E454A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E930115D20035D9B00E454A6 /* ACBRadialCollectionViewFramework */;
+			targetProxy = E930116820035D9B00E454A6 /* PBXContainerItemProxy */;
+		};
+		E930116B20035D9B00E454A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9551FCE1ED290B700DCA7C1 /* ACBRadialCollectionView */;
+			targetProxy = E930116A20035D9B00E454A6 /* PBXContainerItemProxy */;
+		};
+		E930117220035D9B00E454A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E930115D20035D9B00E454A6 /* ACBRadialCollectionViewFramework */;
+			targetProxy = E930117120035D9B00E454A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E9551FD61ED290B700DCA7C1 /* Main.storyboard */ = {
@@ -244,6 +454,124 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E930117720035D9B00E454A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2G6L67FS93;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ACBRadialCollectionViewFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.ACBRadialCollectionViewFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E930117820035D9B00E454A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2G6L67FS93;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ACBRadialCollectionViewFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.ACBRadialCollectionViewFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E930117A20035D9B00E454A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ACBRadialCollectionViewFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.ACBRadialCollectionViewFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACBRadialCollectionView.app/ACBRadialCollectionView";
+			};
+			name = Debug;
+		};
+		E930117B20035D9B00E454A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ACBRadialCollectionViewFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.ACBRadialCollectionViewFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACBRadialCollectionView.app/ACBRadialCollectionView";
+			};
+			name = Release;
+		};
 		E9551FDF1ED290B700DCA7C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -342,8 +670,10 @@
 		E9551FE21ED290B700DCA7C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UJ8X2N5665;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2G6L67FS93;
 				INFOPLIST_FILE = ACBRadialCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.ACBRadialCollectionView;
@@ -355,8 +685,10 @@
 		E9551FE31ED290B700DCA7C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UJ8X2N5665;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2G6L67FS93;
 				INFOPLIST_FILE = ACBRadialCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.ACBRadialCollectionView;
@@ -368,6 +700,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E930117620035D9B00E454A6 /* Build configuration list for PBXNativeTarget "ACBRadialCollectionViewFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E930117720035D9B00E454A6 /* Debug */,
+				E930117820035D9B00E454A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E930117920035D9B00E454A6 /* Build configuration list for PBXNativeTarget "ACBRadialCollectionViewFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E930117A20035D9B00E454A6 /* Debug */,
+				E930117B20035D9B00E454A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E9551FCA1ED290B700DCA7C1 /* Build configuration list for PBXProject "ACBRadialCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
