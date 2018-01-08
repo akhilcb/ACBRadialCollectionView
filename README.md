@@ -63,4 +63,10 @@ You can also control whether the cells needs to be rotated to an angle(_Note: Th
 </div>
 </kbd>
 
+## License
 
+MIT License
+
+Copyright (c) 2017, Akhil C Balan(https://github.com/akhilcb)
+
+All rights reserved.
