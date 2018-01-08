@@ -12,24 +12,24 @@
 		E930117020035D9B00E454A6 /* ACBRadialCollectionViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E930116020035D9B00E454A6 /* ACBRadialCollectionViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E930117320035D9B00E454A6 /* ACBRadialCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E930115E20035D9B00E454A6 /* ACBRadialCollectionView.framework */; };
 		E930117520035D9B00E454A6 /* ACBRadialCollectionView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E930115E20035D9B00E454A6 /* ACBRadialCollectionView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E930117C20035DCD00E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FE61ED2A0AF00DCA7C1 /* UICollectionView+ACBRadialCollectionView.swift */; };
-		E930117D20035DCD00E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FE71ED2A0AF00DCA7C1 /* UIScrollView+ACBRadialScrollBar.swift */; };
-		E930117E20035DE200E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Headers */ = {isa = PBXBuildFile; fileRef = E9551FE61ED2A0AF00DCA7C1 /* UICollectionView+ACBRadialCollectionView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		E930117F20035DE200E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Headers */ = {isa = PBXBuildFile; fileRef = E9551FE71ED2A0AF00DCA7C1 /* UIScrollView+ACBRadialScrollBar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		E930118020035E6B00E454A6 /* ACBRadialCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FEB1ED2A0AF00DCA7C1 /* ACBRadialCollectionViewLayout.swift */; };
-		E930118120035E6B00E454A6 /* ACBInternalRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FF01ED2A0AF00DCA7C1 /* ACBInternalRadialScrollBar.swift */; };
-		E930118220035E6B00E454A6 /* ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FF21ED2A0AF00DCA7C1 /* ACBRadialScrollBar.swift */; };
+		E93011912003661B00E454A6 /* ACBRadialCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930118A2003661B00E454A6 /* ACBRadialCollectionViewLayout.swift */; };
+		E93011922003661B00E454A6 /* ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930118C2003661B00E454A6 /* ACBRadialScrollBar.swift */; };
+		E93011932003661B00E454A6 /* ACBInternalRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930118D2003661B00E454A6 /* ACBInternalRadialScrollBar.swift */; };
+		E93011942003661B00E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930118F2003661B00E454A6 /* UICollectionView+ACBRadialCollectionView.swift */; };
+		E93011952003661B00E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93011902003661B00E454A6 /* UIScrollView+ACBRadialScrollBar.swift */; };
+		E93011962003662700E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930118F2003661B00E454A6 /* UICollectionView+ACBRadialCollectionView.swift */; };
+		E93011972003662A00E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93011902003661B00E454A6 /* UIScrollView+ACBRadialScrollBar.swift */; };
+		E93011982003662C00E454A6 /* ACBRadialCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930118A2003661B00E454A6 /* ACBRadialCollectionViewLayout.swift */; };
+		E93011992003662E00E454A6 /* ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930118C2003661B00E454A6 /* ACBRadialScrollBar.swift */; };
+		E930119A2003663100E454A6 /* ACBInternalRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930118D2003661B00E454A6 /* ACBInternalRadialScrollBar.swift */; };
+		E930119B2003665700E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Headers */ = {isa = PBXBuildFile; fileRef = E930118F2003661B00E454A6 /* UICollectionView+ACBRadialCollectionView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E930119C2003665700E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Headers */ = {isa = PBXBuildFile; fileRef = E93011902003661B00E454A6 /* UIScrollView+ACBRadialScrollBar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9551FD81ED290B700DCA7C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9551FD61ED290B700DCA7C1 /* Main.storyboard */; };
 		E9551FDA1ED290B700DCA7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9551FD91ED290B700DCA7C1 /* Assets.xcassets */; };
 		E9551FDD1ED290B700DCA7C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9551FDB1ED290B700DCA7C1 /* LaunchScreen.storyboard */; };
-		E9551FF31ED2A0AF00DCA7C1 /* UICollectionView+ACBRadialCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FE61ED2A0AF00DCA7C1 /* UICollectionView+ACBRadialCollectionView.swift */; };
-		E9551FF41ED2A0AF00DCA7C1 /* UIScrollView+ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FE71ED2A0AF00DCA7C1 /* UIScrollView+ACBRadialScrollBar.swift */; };
 		E9551FF51ED2A0AF00DCA7C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FE91ED2A0AF00DCA7C1 /* AppDelegate.swift */; };
-		E9551FF61ED2A0AF00DCA7C1 /* ACBRadialCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FEB1ED2A0AF00DCA7C1 /* ACBRadialCollectionViewLayout.swift */; };
 		E9551FF71ED2A0AF00DCA7C1 /* ACBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FED1ED2A0AF00DCA7C1 /* ACBViewController.swift */; };
 		E9551FF81ED2A0AF00DCA7C1 /* ACBCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FEF1ED2A0AF00DCA7C1 /* ACBCollectionViewCell.swift */; };
-		E9551FF91ED2A0AF00DCA7C1 /* ACBInternalRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FF01ED2A0AF00DCA7C1 /* ACBInternalRadialScrollBar.swift */; };
-		E9551FFB1ED2A0AF00DCA7C1 /* ACBRadialScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9551FF21ED2A0AF00DCA7C1 /* ACBRadialScrollBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,19 +77,19 @@
 		E930116620035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACBRadialCollectionViewFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E930116D20035D9B00E454A6 /* ACBRadialCollectionViewFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACBRadialCollectionViewFrameworkTests.m; sourceTree = "<group>"; };
 		E930116F20035D9B00E454A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E930118A2003661B00E454A6 /* ACBRadialCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACBRadialCollectionViewLayout.swift; sourceTree = "<group>"; };
+		E930118C2003661B00E454A6 /* ACBRadialScrollBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACBRadialScrollBar.swift; sourceTree = "<group>"; };
+		E930118D2003661B00E454A6 /* ACBInternalRadialScrollBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACBInternalRadialScrollBar.swift; sourceTree = "<group>"; };
+		E930118F2003661B00E454A6 /* UICollectionView+ACBRadialCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ACBRadialCollectionView.swift"; sourceTree = "<group>"; };
+		E93011902003661B00E454A6 /* UIScrollView+ACBRadialScrollBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ACBRadialScrollBar.swift"; sourceTree = "<group>"; };
 		E9551FCF1ED290B700DCA7C1 /* ACBRadialCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACBRadialCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9551FD71ED290B700DCA7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9551FD91ED290B700DCA7C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9551FDC1ED290B700DCA7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9551FDE1ED290B700DCA7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9551FE61ED2A0AF00DCA7C1 /* UICollectionView+ACBRadialCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ACBRadialCollectionView.swift"; sourceTree = "<group>"; };
-		E9551FE71ED2A0AF00DCA7C1 /* UIScrollView+ACBRadialScrollBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ACBRadialScrollBar.swift"; sourceTree = "<group>"; };
 		E9551FE91ED2A0AF00DCA7C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9551FEB1ED2A0AF00DCA7C1 /* ACBRadialCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACBRadialCollectionViewLayout.swift; sourceTree = "<group>"; };
 		E9551FED1ED2A0AF00DCA7C1 /* ACBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACBViewController.swift; sourceTree = "<group>"; };
 		E9551FEF1ED2A0AF00DCA7C1 /* ACBCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACBCollectionViewCell.swift; sourceTree = "<group>"; };
-		E9551FF01ED2A0AF00DCA7C1 /* ACBInternalRadialScrollBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACBInternalRadialScrollBar.swift; sourceTree = "<group>"; };
-		E9551FF21ED2A0AF00DCA7C1 /* ACBRadialScrollBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACBRadialScrollBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +137,42 @@
 			path = ACBRadialCollectionViewFrameworkTests;
 			sourceTree = "<group>";
 		};
+		E9301188200365E000E454A6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E930118E2003661B00E454A6 /* Extensions */,
+				E93011892003661B00E454A6 /* Helper */,
+				E930118B2003661B00E454A6 /* Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E93011892003661B00E454A6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E930118A2003661B00E454A6 /* ACBRadialCollectionViewLayout.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E930118B2003661B00E454A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E930118C2003661B00E454A6 /* ACBRadialScrollBar.swift */,
+				E930118D2003661B00E454A6 /* ACBInternalRadialScrollBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E930118E2003661B00E454A6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E930118F2003661B00E454A6 /* UICollectionView+ACBRadialCollectionView.swift */,
+				E93011902003661B00E454A6 /* UIScrollView+ACBRadialScrollBar.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E9551FC61ED290B700DCA7C1 = {
 			isa = PBXGroup;
 			children = (
@@ -169,22 +205,12 @@
 		E9551FE41ED2A0AF00DCA7C1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E9551FE51ED2A0AF00DCA7C1 /* Extensions */,
+				E9301188200365E000E454A6 /* Source */,
 				E9551FE81ED2A0AF00DCA7C1 /* General */,
-				E9551FEA1ED2A0AF00DCA7C1 /* Helper */,
 				E9551FEC1ED2A0AF00DCA7C1 /* Viewcontrollers */,
 				E9551FEE1ED2A0AF00DCA7C1 /* Views */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		E9551FE51ED2A0AF00DCA7C1 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				E9551FE61ED2A0AF00DCA7C1 /* UICollectionView+ACBRadialCollectionView.swift */,
-				E9551FE71ED2A0AF00DCA7C1 /* UIScrollView+ACBRadialScrollBar.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E9551FE81ED2A0AF00DCA7C1 /* General */ = {
@@ -193,14 +219,6 @@
 				E9551FE91ED2A0AF00DCA7C1 /* AppDelegate.swift */,
 			);
 			path = General;
-			sourceTree = "<group>";
-		};
-		E9551FEA1ED2A0AF00DCA7C1 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				E9551FEB1ED2A0AF00DCA7C1 /* ACBRadialCollectionViewLayout.swift */,
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 		E9551FEC1ED2A0AF00DCA7C1 /* Viewcontrollers */ = {
@@ -215,8 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				E9551FEF1ED2A0AF00DCA7C1 /* ACBCollectionViewCell.swift */,
-				E9551FF01ED2A0AF00DCA7C1 /* ACBInternalRadialScrollBar.swift */,
-				E9551FF21ED2A0AF00DCA7C1 /* ACBRadialScrollBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,8 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E930117020035D9B00E454A6 /* ACBRadialCollectionViewFramework.h in Headers */,
-				E930117E20035DE200E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Headers */,
-				E930117F20035DE200E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Headers */,
+				E930119B2003665700E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Headers */,
+				E930119C2003665700E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,11 +399,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E930118020035E6B00E454A6 /* ACBRadialCollectionViewLayout.swift in Sources */,
-				E930118120035E6B00E454A6 /* ACBInternalRadialScrollBar.swift in Sources */,
-				E930118220035E6B00E454A6 /* ACBRadialScrollBar.swift in Sources */,
-				E930117C20035DCD00E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Sources */,
-				E930117D20035DCD00E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Sources */,
+				E93011982003662C00E454A6 /* ACBRadialCollectionViewLayout.swift in Sources */,
+				E930119A2003663100E454A6 /* ACBInternalRadialScrollBar.swift in Sources */,
+				E93011972003662A00E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Sources */,
+				E93011992003662E00E454A6 /* ACBRadialScrollBar.swift in Sources */,
+				E93011962003662700E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,14 +419,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9551FF91ED2A0AF00DCA7C1 /* ACBInternalRadialScrollBar.swift in Sources */,
-				E9551FF61ED2A0AF00DCA7C1 /* ACBRadialCollectionViewLayout.swift in Sources */,
 				E9551FF51ED2A0AF00DCA7C1 /* AppDelegate.swift in Sources */,
-				E9551FF41ED2A0AF00DCA7C1 /* UIScrollView+ACBRadialScrollBar.swift in Sources */,
-				E9551FFB1ED2A0AF00DCA7C1 /* ACBRadialScrollBar.swift in Sources */,
+				E93011942003661B00E454A6 /* UICollectionView+ACBRadialCollectionView.swift in Sources */,
+				E93011952003661B00E454A6 /* UIScrollView+ACBRadialScrollBar.swift in Sources */,
+				E93011922003661B00E454A6 /* ACBRadialScrollBar.swift in Sources */,
+				E93011932003661B00E454A6 /* ACBInternalRadialScrollBar.swift in Sources */,
 				E9551FF81ED2A0AF00DCA7C1 /* ACBCollectionViewCell.swift in Sources */,
+				E93011912003661B00E454A6 /* ACBRadialCollectionViewLayout.swift in Sources */,
 				E9551FF71ED2A0AF00DCA7C1 /* ACBViewController.swift in Sources */,
-				E9551FF31ED2A0AF00DCA7C1 /* UICollectionView+ACBRadialCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
