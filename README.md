@@ -1,5 +1,11 @@
 # ACBRadialCollectionView <kbd><img src="/ACBRadialCollectionView/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png?raw=true" width="32"></kbd>
 
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/ACBRadialCollectionView.svg)](https://img.shields.io/cocoapods/v/ACBRadialCollectionView.svg)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Platform](https://img.shields.io/cocoapods/p/ACBRadialCollectionView.svg?style=flat)](https://github.com/akhilcb/ACBRadialCollectionView)
+[![License](https://img.shields.io/cocoapods/l/ACBRadialCollectionView.svg?style=flat)](http://cocoapods.org/pods/ACBRadialCollectionView)
+
+
 This is an extension on UICollectionView which automatically transforms collection view cells to a radial path with minimal code. 
 This is written in Swift language. No need to subclass UICollectionView for this. CollectionView will also display an arc shaped scroll bar next to the cells which acts similar to the normal scroll bar. 
 
