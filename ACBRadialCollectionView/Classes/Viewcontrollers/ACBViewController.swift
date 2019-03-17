@@ -229,3 +229,11 @@ extension ACBViewController : UICollectionViewDataSource {
         
     }
 }
+
+
+extension ACBViewController: UICollectionViewDelegate {
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("Tapped on \(indexPath)")
+    }
+}
