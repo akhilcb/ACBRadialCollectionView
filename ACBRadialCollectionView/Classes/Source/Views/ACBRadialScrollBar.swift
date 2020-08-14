@@ -174,7 +174,7 @@ class ACBRadialScrollBar: ACBInternalRadialScrollBar {
                     self.alpha = 0.0
                 })
             })
-            RunLoop.main.add(fadingScrollBarTimer!, forMode: RunLoopMode.commonModes)
+            RunLoop.main.add(fadingScrollBarTimer!, forMode: .common)
         } else {
             reloadScrollBar()
         }
