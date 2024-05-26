@@ -53,7 +53,7 @@ extension UIScrollView : ACBRadialScrollBarProtocol {
     }
     
     private struct AssociatedKeys {
-        static var scrollBar = "scrollBar"
+        static var scrollBar = malloc(1)!
     }
     
     var scrollBar : ACBRadialScrollBar? {
@@ -62,7 +62,7 @@ extension UIScrollView : ACBRadialScrollBarProtocol {
         }
         
         set(newValue) {
-            objc_setAssociatedObject(self,&AssociatedKeys.scrollBar, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            objc_setAssociatedObject(self, &AssociatedKeys.scrollBar, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
 }
